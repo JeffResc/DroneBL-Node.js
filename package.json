@@ -1,0 +1,28 @@
+{
+  "name": "dronebl",
+  "version": "1.0.0",
+  "description": "DroneBL IP Address Lookup",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlphaT3ch/DroneBL"
+  },
+  "keywords": [
+    "DroneBL",
+    "blacklist",
+    "dns",
+    "dnsbl"
+  ],
+  "author": "AlphaTech",
+  "bugs": {
+    "url": "https://github.com/AlphaT3ch/DroneBL/issues"
+  },
+  "homepage": "https://github.com/AlphaT3ch/DroneBL"
+}
