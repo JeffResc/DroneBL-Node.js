@@ -25,6 +25,6 @@
     "url": "https://github.com/AlphaT3ch/DroneBL/issues"
   },
   "homepage": "https://github.com/AlphaT3ch/DroneBL",
-  "readme": "# DroneBL\nDroneBL IP Address Lookup in Node.js\n\nExample Lookup:\n\nFirst run ```npm install dronebl``` to install the DroneBL package to your system.\n\n```javascript\nvar DroneBL = require('dronebl');\n\ndronebl.lookup("8.8.8.8", function(res) {\n	if (res.status != 'failure') {\n		console.log(res.result); //Returns false since 8.8.8.8 is not listed\n	}\n});\n\nDroneBL.lookup("213.163.51.164", function(res) {\n	if (res.status != 'failure') {\n		console.log(res.result); //Returns true since 213.163.51.164 is not listed\n	}\n});\n```",
+  "readme": "# DroneBL\nDroneBL IP Address Lookup in Node.js\n\nExample Lookup:\n\nFirst run ```npm install dronebl``` to install the DroneBL package to your system.\n\n```javascript\nvar DroneBL = require('dronebl');\n\ndronebl.lookup('8.8.8.8', function(res) {\n	if (res.status != 'failure') {\n		console.log(res.result); //Returns false since 8.8.8.8 is not listed\n	}\n});\n\nDroneBL.lookup('213.163.51.164', function(res) {\n	if (res.status != 'failure') {\n		console.log(res.result); //Returns true since 213.163.51.164 is not listed\n	}\n});\n```",
   "readmeFile": "README.md"
 }
