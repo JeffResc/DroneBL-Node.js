@@ -26,7 +26,7 @@ module.exports = {
 					}
 				} else {
 						status: "failure",
-						message: "Unknown error""
+						message: "Unknown error"
 				}
 			});
 		}
