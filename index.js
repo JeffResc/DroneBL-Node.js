@@ -25,8 +25,10 @@ module.exports = {
 						result: "true"
 					}
 				} else {
+					var obj = {
 						status: "failure",
 						message: "Unknown error"
+					}
 				}
 			});
 		}
