@@ -9,24 +9,24 @@ module.exports = {
 		var byte3 = bytes[3];
 		if (typeof byte0 == 'undefined' || typeof byte1 == 'undefined' || typeof byte2 == 'undefined' || typeof byte3 == 'undefined') {
 			var obj = {
-				"status": "failure",
-				"message": "IPv4 Address is Not Properly Formatted"
+				status: "failure",
+				message: "IPv4 Address is Not Properly Formatted"
 			}
 		} else {
 			request('http://' + byte3 + '.' + byte2 + '.' + byte1 + '.' + byte0 + '.dnsbl.dronebl.org', function (error, response, body) {
 				if (error.code == 'ENOTFOUND') {
 					var obj = {
-						"status": "success",
-						"result": "false"
+						status: "success",
+						result: "false"
 					}
 				} else if (error.code == 'ECONNREFUSED') {
 					var obj = {
-						"status": "success",
-						"result": "true"
+						status: "success",
+						result: "true"
 					}
 				} else {
-						"status": "failure",
-						"message": "Unknown error""
+						status: "failure",
+						message: "Unknown error""
 				}
 			});
 		}
