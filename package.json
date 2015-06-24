@@ -24,5 +24,7 @@
   "bugs": {
     "url": "https://github.com/AlphaT3ch/DroneBL/issues"
   },
-  "homepage": "https://github.com/AlphaT3ch/DroneBL"
+  "homepage": "https://github.com/AlphaT3ch/DroneBL",
+  "readme": "# DroneBL\nDroneBL IP Address Lookup in Node.js\n\nExample Lookup:\nFirst run ```npm install dronebl``` to install the DroneBL package to your system.\n\n```javascript\nvar DroneBL = require('DroneBL');\n\nDroneBL.lookup('8.8.8.8', function(res) {\n    console.log(res); //Returns false since 8.8.8.8 is not listed\n});\n\nDroneBL.lookup('213.163.51.164', function(res) {\n    console.log(res); //Returns true since 213.163.51.164 is not listed\n});\n```",
+  "readmeFile": "README.md"
 }
