@@ -8,7 +8,7 @@ First run ```npm install dronebl``` to install the DroneBL package to your syste
 ```javascript
 var DroneBL = require('dronebl');
 
-dronebl.lookup("8.8.8.8", function(res) {
+DroneBL.lookup("8.8.8.8", function(res) {
 	if (res.status != 'failure') {
 		console.log(res.result); //Returns false since 8.8.8.8 is not listed
 	}
