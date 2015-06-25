@@ -21,3 +21,5 @@ DroneBL.lookup('213.163.51.164', function(res) {
 	console.log(res); //Returns true since 213.163.51.164 is listed
 });
 ```
+
+[This Package Is Under The GPL-3.0 License](https://raw.githubusercontent.com/AlphaT3ch/DroneBL/master/LICENSE.txt)
