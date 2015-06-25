@@ -3,6 +3,8 @@
 # DroneBL
 DroneBL IP Address Lookup in Node.js
 
+Also check out my [BarracudaCentral](https://npmjs.com/package/barracudacentral) and [SpamCop](https://npmjs.com/package/spamcop) packages.
+
 Example Lookup:
 
 First run ```npm install dronebl``` to install the DroneBL package to your system.
