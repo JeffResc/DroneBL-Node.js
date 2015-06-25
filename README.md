@@ -3,9 +3,6 @@
 # DroneBL
 DroneBL IP Address Lookup in Node.js
 
-[![Coverage Status](https://coveralls.io/repos/AlphaT3ch/DroneBL/badge.svg)](https://coveralls.io/r/AlphaT3ch/DroneBL)
-[![Travis CI Status](https://travis-ci.org/AlphaT3ch/DroneBL.svg)](https://travis-ci.org/AlphaT3ch/DroneBL)
-
 Example Lookup:
 
 First run ```npm install dronebl``` to install the DroneBL package to your system.
