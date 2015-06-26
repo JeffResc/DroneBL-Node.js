@@ -1,6 +1,6 @@
 {
   "name": "dronebl",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "DroneBL IP Address Lookup",
   "main": "index.js",
   "dependencies": {
