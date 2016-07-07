@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/dronebl.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.com/package/dronebl/)
+[![NPM](https://nodei.co/npm/dronebl.png?downloads=true&stars=true)](https://npmjs.com/package/dronebl/)
 
 # DroneBL
 DroneBL IP Address Lookup in Node.js
