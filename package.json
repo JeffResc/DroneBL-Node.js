@@ -13,7 +13,7 @@
   },
   "scripts": {
     "main": "node index.js",
-    "test": "gulp"
+    "test": "nvm ls && gulp"
   },
   "repository": {
     "type": "git",
