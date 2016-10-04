@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/dronebl.png?downloads=true&stars=true)](https://npmjs.com/package/dronebl/)
 
-# DroneBL [![Build Status(https://travis-ci.org/AlphaT3ch/DroneBL.svg?branch=master)](https://travis-ci.org/AlphaT3ch/DroneBL)
+# DroneBL [![Build Status](https://travis-ci.org/AlphaT3ch/DroneBL.svg?branch=master)](https://travis-ci.org/AlphaT3ch/DroneBL)
 DroneBL IP Address Lookup in Node.js
 
 Also check out my [BarracudaCentral](https://npmjs.com/package/barracudacentral) and [SpamCop](https://npmjs.com/package/spamcop) packages.
