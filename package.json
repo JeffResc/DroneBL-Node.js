@@ -11,6 +11,10 @@
     "gulp-jshint": "1.10.0",
     "gulp-markdown": "1.0.0"
   },
+  "scripts": {
+    "main": "node index.js",
+    "test": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlphaT3ch/DroneBL.git"
