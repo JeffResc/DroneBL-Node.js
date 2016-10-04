@@ -3,7 +3,6 @@
 # DroneBL [![Build Status](https://travis-ci.org/AlphaT3ch/DroneBL.svg?branch=master)](https://travis-ci.org/AlphaT3ch/DroneBL)
 DroneBL IP Address Lookup in Node.js
 
-Also check out my [BarracudaCentral](https://npmjs.com/package/barracudacentral) and [SpamCop](https://npmjs.com/package/spamcop) packages.
 
 Example Lookup:
 
