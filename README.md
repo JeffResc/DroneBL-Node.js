@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/dronebl.png?downloads=true&stars=true)](https://npmjs.com/package/dronebl/)
 
-# DroneBL
+# DroneBL [![Build Status(https://travis-ci.org/AlphaT3ch/DroneBL.svg?branch=master)](https://travis-ci.org/AlphaT3ch/DroneBL)
 DroneBL IP Address Lookup in Node.js
 
 Also check out my [BarracudaCentral](https://npmjs.com/package/barracudacentral) and [SpamCop](https://npmjs.com/package/spamcop) packages.
@@ -21,4 +21,4 @@ DroneBL.lookup('213.163.51.164', function(res) {
 });
 ```
 
-[This Package Is Under The GPL-3.0 License](https://raw.githubusercontent.com/AlphaT3ch/DroneBL/master/LICENSE.txt)
+[This Package Is Under The MIT License](https://raw.githubusercontent.com/AlphaT3ch/DroneBL/master/LICENSE.txt)

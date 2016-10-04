@@ -1,10 +1,15 @@
 {
   "name": "dronebl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "DroneBL IP Address Lookup",
   "main": "index.js",
   "dependencies": {
     "request": "2.58.0"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-jshint": "1.10.0",
+    "gulp-markdown": "1.0.0"
   },
   "repository": {
     "type": "git",
@@ -22,5 +27,5 @@
   },
   "homepage": "https://github.com/AlphaT3ch/DroneBL",
   "readmeFile": "README.md",
-  "license": "GPL-3.0"
+  "license": "MIT"
 }
