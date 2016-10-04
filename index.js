@@ -1,26 +1,29 @@
-var request = require('request');
+'use strict';
 
-module.exports = {
-    lookup: function(ip, cb) {
-	if (ip.indexOf(':') == -1) {
-        request('http://' + ip.split(':').reverse().join(':') + '.dnsbl.dronebl.org', function (error, response, body) {
-            if (error.code === 'ENOTFOUND') {
-                cb('false');
-            } else if (error.code === 'ECONNREFUSED') {
-                cb('true');
-            } else {
-                cb('error')
-            }
-        });
-	} else {
-	request('http://' + ip.split(':').reverse().join(':') + '.dnsbl.dronebl.org', function (error, response, body) {
-	    if (error.code === 'ENOTFOUND') {
-		cb('false');
-	    } else if (error.code === 'ECONNREFUSED') {
-		cb('true');
-	    } else {
-		cb('error');
-	    }
-	}
+// Requirements
+let request = require('request')
+
+// Module object
+let DroneBL = {
+  resolveResponse: (code, cb) => {
+    switch (code) {
+      case 'ENOTFOUND': cb('false'); break;
+      case 'ECONNREFUSED': cb('true'); break;
+      default: cb('error'); break;
     }
-};
+  },
+  lookup: (ip, cb) => {
+    if (ip.indexOf(':') == -1) {
+      request('http://' + ip.split(':').reverse().join(':') + '.dnsbl.dronebl.org', (error, response, body) => {
+        DroneBL.resolveResponse(error.code, cb)
+      });
+    } else {
+      request('http://' + ip.split(':').reverse().join(':') + '.dnsbl.dronebl.org', (error, response, body) => {
+        DroneBL.resolveResponse(error.code, cb)
+      })
+    }
+  }
+}
+
+// Export module
+module.exports = DroneBL
