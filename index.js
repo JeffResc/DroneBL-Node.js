@@ -12,7 +12,7 @@ let DroneBL = {
       return ip.split('.').reverse().join('.')
     if(ip.match(ipv6Re))
       return ip.split(':').reverse().join(':')
-  }
+  },
   resolveResponse: (code, cb) => {
     switch (code) {
       case 'ENOTFOUND': cb('false'); break;
