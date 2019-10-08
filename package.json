@@ -3,9 +3,7 @@
   "version": "1.2.1",
   "description": "DroneBL IP Address Lookup",
   "main": "index.js",
-  "dependencies": {
-    "request": "^2.81.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "3.8.11",
     "gulp-jshint": "1.10.0",
